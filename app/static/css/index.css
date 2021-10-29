@@ -1,5 +1,32 @@
-h3{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    font-family: 'Poppins', sans-serif;
+}
+.popular h3{
     font-size: 30px;
     font-weight: 800;
     color: crimson;
+    text-align: center;
+    margin-top: 2rem;
+}
+.popular{
+    padding: 2rem;
+    margin: 2rem 2rem;
+    background: whitesmoke;
+    border-radius: 30px;
+    height: auto;
+}
+.popular:hover{
+    transition: ease 0.7s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.2)
+}
+.upcoming{
+    margin-top: 2rem;
+}
+.popular ul{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem;
 }
