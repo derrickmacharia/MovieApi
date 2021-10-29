@@ -19,23 +19,23 @@
 <!-- Content block -->
 
 <!-- Popular movie -->
-<div class="container-full popular">
+<div class="container-full ">
     <h3> Popular Movies</h3>
-    <div class="">
-        <ul>
+    <div >
+        <ul class="popular">
             {{ macro.displayMovieList(popular)}}
         </ul>
     </div>
     <!-- Upcoming movie  -->
     <div class="upcoming">
         <h3> Upcoming Movies </h3>
-        <ul>
+        <ul class="popular1">
             {{ macro.displayMovieList(upcoming)}}
         </ul>
     </div>
     <!-- Now showing movie -->
     <h3>Now Showing</h3>
-    <ul>
+    <ul class="popular">
         {{ macro.displayMovieList(now_showing)}}
     </ul>
 </div>
